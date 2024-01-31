@@ -1186,9 +1186,9 @@ body.is-preload .spotlights>section>.content>.inner {
 	background-color: #ffffff;
 }
 
-.video{
+.video2{
 	width: 100%;
-	min-width: 370px;
+	max-width: 370px;
 }
 .artwork {
 	padding-bottom: 150px;
@@ -1987,6 +1987,14 @@ body.is-preload #sidebar nav ul li {
 	#intro h1 {
 		font-size: 20px;
 	}
+	ul .icons li{
+		margin: 0.5em;
+		width: 65px;
+		justify-content: center;
+	}
+	ul .icons{
+		justify-content: center;
+	}
 }
 
 @media screen and (max-width: 736px) {
@@ -2076,10 +2084,24 @@ body.is-preload #sidebar nav ul li {
 	}
 }
 
-@media screen and (max-width: 320px) {
-
-	.inner h2 {
-		font-size: 22px;
+@media screen and (max-width: 360px) {
+	#intro .inner {
+		position: absolute;
+		bottom:0px;
+	}
+	#intro h1 {
+		font-size: 10px;
+	}
+	#intro h2 {
+		font-size: 20px;
+		margin-bottom: 0;
+	}
+	#intro ul.actions li a {
+		width: auto;
+		display: inline-block;
+		line-height: 1.5;
+		font-size: 10px;
+		padding: 5px 8px;
 	}
 }
 
